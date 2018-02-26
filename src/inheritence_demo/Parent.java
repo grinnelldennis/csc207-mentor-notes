@@ -1,3 +1,4 @@
+package inheritence_demo;
 
 public abstract class Parent {
 	

@@ -1,5 +1,6 @@
+package inheritence_demo;
 
-public class Child2 extends Parent{
+public class Child extends Parent{
 
 	@Override
 	public void getSchoolYear() {

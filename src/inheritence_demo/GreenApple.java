@@ -1,4 +1,4 @@
-
+package inheritence_demo;
 public class GreenApple extends Food{
 
 	public void getWeight() {

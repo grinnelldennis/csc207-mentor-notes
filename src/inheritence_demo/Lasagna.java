@@ -1,4 +1,4 @@
-
+package inheritence_demo;
 public class Lasagna extends Food{
 
 	int layers;

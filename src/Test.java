@@ -1,3 +1,9 @@
+import data_structures.LinkedList;
+import inheritence_demo.Child;
+import interface_demo.Flute;
+import interface_demo.Instrument;
+import interface_demo.Piano;
+import objects.Company;
 
 public class Test {
 
@@ -44,11 +50,6 @@ public class Test {
 		
 		
 		
-		
-		
-		
-		
-		// TODO Auto-generated method stub
 		Company grinnell = new Company("Grinnell", 9.5, 8.5);
 		Company cornell = new Company(9.2, 8.5);
 		Company shell = new Company();

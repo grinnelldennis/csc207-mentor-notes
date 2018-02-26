@@ -2,6 +2,12 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
+import inheritence_demo.Food;
+import inheritence_demo.GreenApple;
+import inheritence_demo.Grinnell;
+import objects.Company;
+import objects.Counter;
+
 public class Main2 {
 
 	

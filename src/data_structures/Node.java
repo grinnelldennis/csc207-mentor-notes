@@ -1,4 +1,4 @@
-package Unused;
+package data_structures;
 
 public class Node {
 

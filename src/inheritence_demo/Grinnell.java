@@ -1,3 +1,6 @@
+package inheritence_demo;
+import objects.Company;
+
 // When a class extends another class, the class
 //  extending "inherits" the fields and behavior of
 //  the parent class. The inheritence is done by 

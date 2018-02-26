@@ -1,3 +1,4 @@
+package interface_demo;
 // this is a food interface
 public interface Interface {
 	

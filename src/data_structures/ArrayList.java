@@ -1,3 +1,5 @@
+package data_structures;
+
 public class ArrayList {
 
   private int fillIndex;            // indicates push index, post decrements in add

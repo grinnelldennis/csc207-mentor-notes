@@ -1,4 +1,4 @@
-
+package interface_demo;
 public class Piano implements Instrument{
 
 	@Override
