@@ -1,3 +1,4 @@
+
 import data_structures.LinkedList;
 import inheritence_demo.Child;
 import interface_demo.Flute;
@@ -5,34 +6,38 @@ import interface_demo.Instrument;
 import interface_demo.Piano;
 import objects.Company;
 
-public class Test {
+public class RelationalMain {
 
 	public static void makeNoise(Instrument instrument) {
 		instrument.makeNoise();
 	}
 	
 	
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		
+		// Parent pm = new Parent();
 		Child poop = new Child();
 		Child prabir = new Child();
 		
-		System.out.println(pm.eyeColor);
+		// System.out.println(pm.eyeColor);
 		System.out.println(poop.eyeColor);
 		
 
-		System.out.println(pm.hairiness);
+		// System.out.println(pm.hairiness);
 		System.out.println(poop.hairiness);
 		
-		pm.growHair();
-		// poop.growHair();
+		// pm.growHair();
+		poop.growHair();
 		
-		System.out.println(pm.hairiness);
+		// System.out.println(pm.hairiness);
 		System.out.println(poop.hairiness);
 		
+		
+		
+		/* ---Interfaces--- 
+		 * 
+		 *	 
+		 */
 		
 		Piano piano = new Piano();
 		Flute flute = new Flute();
@@ -42,13 +47,10 @@ public class Test {
 		
 		
 		
-		
-		LinkedList list = new LinkedList();
-		list.get(5);
-		
-		
-		
-		
+		/* ---Inheritance--- 
+		 * 
+		 * 
+		 */
 		
 		Company grinnell = new Company("Grinnell", 9.5, 8.5);
 		Company cornell = new Company(9.2, 8.5);

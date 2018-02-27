@@ -1,7 +1,10 @@
 # CSC-207 2018S Mentor Notes
 
-### Exam 1 Mentor Session
-`Sunday, February 25, 2018`
+
+
+
+### Exam 1 Mentor Session, `Sunday, February 25, 2018`
+
 
 ##### Are read/write permissions the same for private, public and protected methods?
 Yes.

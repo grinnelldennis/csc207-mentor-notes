@@ -1,8 +1,8 @@
-package data_structures;
-public class Driver {
+import data_structures.ArrayList;
+
+public class ListMain {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		ArrayList als = new ArrayList();
 
 		als.add(0);
@@ -37,5 +37,4 @@ public class Driver {
 		System.out.println(als.toString());
 		
 	}
-
 }
