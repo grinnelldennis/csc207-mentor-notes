@@ -37,7 +37,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
 			cur.right = insert(v, cur.right);
 		return cur;
 	}
- 
+
 	private boolean removed;
 	private T lrMostElement;
 
@@ -72,7 +72,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
 		}
 		return cur;
 	}
-	
+
 	private Node<T> removeHelper(Node<T> cur) {
 		if (cur.right == null) {	// get the right most node
 			lrMostElement = cur.data;
@@ -83,13 +83,13 @@ public class BinarySearchTree<T extends Comparable<T>> {
 		cur.right = removeHelper(cur.right);
 		return cur;
 	}
-	
+
 	public String inOrderTraversal() {
 		StringBuilder sb = new StringBuilder();
 		inOrderTraversal(sb, root);
 		return sb.toString();
 	}
-	
+
 	private void inOrderTraversal(StringBuilder sb, Node<T> cur) {
 		if (cur == null) return;
 		inOrderTraversal(sb, cur.left);
